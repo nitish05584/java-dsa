@@ -22,3 +22,8 @@
 
 
 // Method Overloading : multiple functions with the same name but different parameters.
+
+// Method Overriding : Parent and child classes both the same function with a different definition.
+
+// Abstraction : Hiding all the unnecessary details and showing only the important parts to the user.
+
