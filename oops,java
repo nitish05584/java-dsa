@@ -1,0 +1,19 @@
+// class:- group of these entities.
+
+// objects:-entities in the real world.
+
+//GET:to modify the value
+
+// set: to modify the value
+
+// this: this keyword is used to refer to the current object
+
+
+// Encapsulation: Encapsulation is defined as the wrapping up of data & methods under a single unit . it also implements data hiding.
+
+// constructor: constructor is a special method which is invoked automatically at the time of object creation.
+
+
+// three types of constructors 1. Non-parameterized  2. parameterized  3. copy constructor.
+
+// inheritance: inheritance is when properties & methods of base class are passed on to a derived class.
