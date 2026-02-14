@@ -17,3 +17,8 @@
 // three types of constructors 1. Non-parameterized  2. parameterized  3. copy constructor.
 
 // inheritance: inheritance is when properties & methods of base class are passed on to a derived class.
+
+// forth types of inheritance 1. single inheritance 2.multiple iheritance 3. Hierarchial inheritance 4. Hybrid inheritance 
+
+
+// Method Overloading : multiple functions with the same name but different parameters.
