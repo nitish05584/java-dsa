@@ -31,7 +31,8 @@ public class addmiddle {
 
  public void add(int idx,int data){
    if(idx==0){
-
+    addFirst(data);
+    return;
    }
    Node newNode=new Node(data);
    Node temp=head;
