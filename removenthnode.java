@@ -55,6 +55,41 @@ public static Node head;
     prev.next=prev.next.next;
     return; 
    }
+
+   public Node findMid(Node head){
+    Node slow=head;
+    Node fast=head;
+    while(fast!=null && fast.next!=null){
+        slow=slow.next;
+        fast=fast.next.next;
+    }
+    return slow;
+   }
+   public boolean checkPalindrome(){
+    if(head==null || head.next==null){
+        return true;
+    }
+    Node midNode=findMid(head);
+    Node prev=null;
+    Node curr=midNode;
+    Node next;
+    while(curr!=null){
+        next=curr.next;
+        curr.next=prev;
+        prev=curr;
+        curr=next;
+    }
+    Node right=prev;
+    Node left=head;
+    while(right!=null){
+        if(left.data!=right.data){
+            return false;
+        }
+        left=left.next;
+        right=right.next;
+    }
+    return true;
+   }
   
   
   
@@ -76,13 +111,13 @@ public static Node head;
 
     ll.addFirst(1);
 
-    ll.addLast(3);
+    ll.addLast(2);
 
-    ll.addLast(4);
+    ll.addLast(1);
 
         ll.print(); 
 
-     ll.deleteNthformEnd(3);
+     System.out.println(ll.checkPalindrome());
         ll.print();
    } 
 }
