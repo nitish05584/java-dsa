@@ -10,6 +10,7 @@ public class BSTA {
 
         }
     }
+   
     public static Node insert(Node root,int val){
         if(root==null){
         root=new Node(val);
@@ -40,5 +41,7 @@ public class BSTA {
         }
         inorder(root);
         System.out.println();
+
+       
     }
 }
