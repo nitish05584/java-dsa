@@ -16,7 +16,7 @@ public class linear {
         if(index==-1){
             System.out.println("not found");
         }else{
-            System.out.println("key is at index" + index);
+            System.out.println("key is at index " + index);
         }
     }
 }
