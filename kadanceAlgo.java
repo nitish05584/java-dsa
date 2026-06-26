@@ -3,10 +3,7 @@ public class kadanceAlgo {
        int ms=Integer.MIN_VALUE;
        int cs=0;
        for(int i=0;i<numbers.length;i++){
-        cs=cs+numbers[i];
-        if(cs<0){
-            cs=0;       
-        }
+        cs=Math.max(numbers[i],cs+numbers[i]);
         ms=Math.max(cs,ms);
     } 
     System.out.println(ms);
